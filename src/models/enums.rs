@@ -6,7 +6,7 @@ use super::{
         BackstageImageRenderer, BackstagePostRenderer, BackstagePostThreadRenderer,
         C4TabbedHeaderRenderer, ChannelAboutFullMetadataRenderer, ChannelMetadataRenderer,
         ChannelRenderer, ChannelVideoPlayerRenderer, GridChannelRenderer, GridRadioRenderer,
-        PollRenderer, PostMultiImageRenderer, RichGridRenderer, RichItemRenderer,
+        PostMultiImageRenderer, RichGridRenderer, RichItemRenderer,
         SharedPostRenderer,
     },
     misc::{

@@ -1,14 +1,12 @@
 [package]
 name = "youtubei-rs"
-version = "1.4.6"
+version = "2.0.1"
 edition = "2021"
 license = "AGPL-3.0-only"
-keywords = ["api", "youtube","innertube", "wrapper"]
+keywords = ["api", "youtube", "innertube", "wrapper"]
 repository = "https://github.com/11tuvork28/youtubei-rs"
 readme = "README.md"
-description = """
-A asynchronous implementation of the invidious innertube aka youtubei API wrapper.
-"""
+description = "An asynchronous implementation of the internal YouTube API (Innertube)"
 
 [lib]
 name = "youtubei_rs"
@@ -17,8 +15,7 @@ crate-type = ["lib"]
 test = true
 
 [dependencies]
-serde_json = "1.0.81"
-serde = { version = "1.0", features = ["derive"] }
-reqwest = { version = "0.11", features = ["json","gzip"] }
-tokio = { version = "1", features = ["full"] }
-tracing = "0.1"
+serde = { version = "1.0.152", features = ["derive"] }
+serde_json = "1.0.91"
+reqwest = { version = "0.11.13", features = ["json", "gzip"] }
+tracing = "0.1.37"
